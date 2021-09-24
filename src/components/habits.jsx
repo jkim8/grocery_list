@@ -21,6 +21,9 @@ class Habits extends Component {
         <button className="habits-reset" onClick={this.props.onReset}>
           Reset All
         </button>
+        <button className="habits-deleteAll" onClick={this.props.onDeleteAll}>
+          Delete All
+        </button>
       </div>
     );
   }

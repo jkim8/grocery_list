@@ -53,6 +53,11 @@ class App extends Component {
     this.setState({ habits });
   };
 
+  handleDeleteAll = (habit) => {
+    const habits = this.state.habits.filter((item) => item.id === habit.id);
+    this.setState({ habits });
+  };
+
   render() {
     return (
       <>
@@ -66,6 +71,7 @@ class App extends Component {
           onDelete={this.handleDelete}
           onAdd={this.handleAdd}
           onReset={this.handleReset}
+          onDeleteAll={this.handleDeleteAll}
         />
       </>
     );
