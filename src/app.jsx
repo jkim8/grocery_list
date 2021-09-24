@@ -6,9 +6,9 @@ import Navbar from "./components/navbar";
 class App extends Component {
   state = {
     habits: [
-      { id: 1, name: "Reading", count: 0 },
-      { id: 2, name: "Running", count: 0 },
-      { id: 3, name: "Coding", count: 0 },
+      { id: 1, name: "Ramen", count: 0 },
+      { id: 2, name: "Egg", count: 0 },
+      { id: 3, name: "Zero Coke", count: 0 },
     ],
   };
 

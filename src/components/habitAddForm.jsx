@@ -1,5 +1,3 @@
-// import React, { PureComponent } from "react";
-
 import React, { memo } from "react";
 
 const HabitAddForm = memo((props) => {
@@ -18,7 +16,7 @@ const HabitAddForm = memo((props) => {
         ref={inputRef}
         type="text"
         className="add-input"
-        placeholder="Habit"
+        placeholder="Add Your Items"
       />
       <button className="add-button">Add</button>
     </form>
@@ -26,6 +24,8 @@ const HabitAddForm = memo((props) => {
 });
 
 export default HabitAddForm;
+
+// import React, { PureComponent } from "react";
 
 // class HabitAddForm extends PureComponent {
 //   formRef = React.createRef();
