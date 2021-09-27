@@ -12,6 +12,7 @@ button {
   font-size: 2rem;
   padding: 1em;
   background-color: blanchedalmond;
+  text-align: center;
 }
 
 .navbar-logo {
@@ -37,6 +38,11 @@ button {
   padding-top: 2em;
 }
 
+.add-form {
+  display: flex;
+  justify-content: center;
+}
+
 .add-input {
   font-size: 2rem;
 }
@@ -57,6 +63,11 @@ button {
   font-size: 2.5rem;
   padding: 0.5em;
   list-style: none;
+}
+
+.habit-name {
+  width: 300px;
+  display: inline-block;
 }
 
 .habit-count {
