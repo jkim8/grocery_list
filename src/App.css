@@ -94,6 +94,10 @@ button {
   opacity: 0.8;
 }
 
+.habits-ul {
+  text-align: center;
+}
+
 .habit-increase,
 .habit-decrease {
   color: goldenrod;
@@ -118,4 +122,8 @@ button {
   background-color: brown;
   color: white;
   margin: 1rem;
+}
+
+.buttons {
+  text-align: center;
 }

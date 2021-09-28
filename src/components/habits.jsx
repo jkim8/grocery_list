@@ -7,7 +7,7 @@ class Habits extends Component {
     return (
       <div className="habits">
         <HabitAddForm onAdd={this.props.onAdd} />
-        <ul>
+        <ul className="habits-ul">
           {this.props.habits.map((habit) => (
             <Habit
               key={habit.id}
@@ -18,12 +18,14 @@ class Habits extends Component {
             />
           ))}
         </ul>
-        <button className="habits-reset" onClick={this.props.onReset}>
-          Reset All
-        </button>
-        <button className="habits-deleteAll" onClick={this.props.onDeleteAll}>
-          Delete All
-        </button>
+        <div className="buttons">
+          <button className="habits-reset" onClick={this.props.onReset}>
+            Reset All
+          </button>
+          <button className="habits-deleteAll" onClick={this.props.onDeleteAll}>
+            Delete All
+          </button>
+        </div>
       </div>
     );
   }
