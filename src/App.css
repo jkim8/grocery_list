@@ -112,7 +112,7 @@ button {
 .habits-reset {
   font-size: 1.5rem;
   padding: 0.2em 1em;
-  background-color: green;
+  background-color: yellowgreen;
   color: white;
   margin: 1rem;
 }
@@ -120,7 +120,7 @@ button {
 .habits-deleteAll {
   font-size: 1.5rem;
   padding: 0.2em 1em;
-  background-color: brown;
+  background-color: lightcoral;
   color: white;
   margin: 1rem;
 }
